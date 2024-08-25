@@ -12,4 +12,4 @@ Jupyter Notebook -
 </a>. 
 
 <br><br>
-To see this in action: Feel free to visit one of my blogs as well for more details: <a href="https://sites.google.com/view/gautamsatyndra/projects/customized-and-responsive-jupyter-notebook" target="_blank"> Responsive Jupyter-HTML Page</a>. 
+To see this in action: Feel free to visit one of my blogs as well for more details: <a href="https://sites.google.com/view/gautamsatyndra/blog/customized-and-responsive-jupyter-notebook" target="_blank"> Responsive Jupyter-HTML Page</a>. 
