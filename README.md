@@ -9,7 +9,7 @@ not only more functional but also more engaging. For example, you can view one o
 Jupyter Notebook - 
 <a href="https://sites.google.com/view/gautamsatyndra/projects/big-data-preprocessing-using-pyspark-databricks-and-aws" target="_blank">
     Advanced Big Data Processing
-</a>. 
+</a> or [Animated Pie Chart](https://sites.google.com/view/gautamsatyndra/blog/plotly-animated-pie-chart).
 
 <br><br>
 To see this in action: Feel free to visit one of my blogs as well for more details: <a href="https://sites.google.com/view/gautamsatyndra/blog/customized-and-responsive-jupyter-notebook" target="_blank"> Responsive Jupyter-HTML Page</a>. 
