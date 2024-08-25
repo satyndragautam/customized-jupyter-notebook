@@ -7,6 +7,9 @@ Integrating HTML and CSS in notebooks not only enhances the look but also make t
 use them as web pages. This approach allows for greater control over the presentation of content, making your notebooks 
 not only more functional but also more engaging. For example, you can view one of my projects completely developed in 
 Jupyter Notebook - 
-<a style="color:#EE4A60;" href="https://sites.google.com/view/gautamsatyndra/projects/big-data-preprocessing-using-pyspark-databricks-and-aws" target="_blank">
+<a href="https://sites.google.com/view/gautamsatyndra/projects/big-data-preprocessing-using-pyspark-databricks-and-aws" target="_blank">
     Advanced Big Data Processing
 </a>. 
+
+<br><br>
+To see this in action: Feel free to visit one of my blogs as well for more details: <a href="https://sites.google.com/view/gautamsatyndra/projects/customized-and-responsive-jupyter-notebook" target="_blank"> Responsive Jupyter-HTML Page</a>. 
