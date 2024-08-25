@@ -1,0 +1,358 @@
+<style>
+    /* Start wrting css rules and media queries */
+    div.verdana {    
+        font-size: 30px;
+        font-weight: bold;
+        display: flex; 
+        max-width: 100%;
+    }
+    
+    div.bigger {
+        font-size: 20pt;
+    }
+    
+    .hello {
+        max-width: 100%;
+        padding: 120px 50px 60px 50px;
+        background-color: rgba(231, 75, 96, 1);
+        border: 1px dashed #c7c6c6;
+        border-bottom: none;
+        position: relative;
+        z-index: 20;
+        overflow: hidden;
+        background: linear-gradient(to bottom right, rgb(29, 12, 56) 30%, rgba(27, 15, 73, 0.25)), #EE4A60 80%;
+        background-size: 100% 100%;
+        background-blend-mode: normal;
+        display: flex;
+        color: white;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .hello {
+            flex-direction: column;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .verdana {
+            flex-direction: column;
+        }
+    }
+
+    .top-section-main__div {
+        max-width: 100%; 
+        padding: 120px 50px 60px 50px;
+        background-color: rgba(231, 75, 96, 1);
+        border: 1px dashed #c7c6c6;
+        border-bottom: none; 
+        position: relative; 
+        z-index: 20; 
+        overflow: hidden;
+
+        background: linear-gradient( to bottom right,
+                rgb(29, 12, 56) 30%, 
+                rgba(27, 15, 73, 0.25) 
+            ),
+            #EE4A60 80%; 
+        background-size: 100% 100%;
+        /*background-blend-mode: multiply; */
+        background-blend-mode:normal;
+    }
+
+    .top-section-title-img__div {
+        max-width: 100%; 
+        display: flex; 
+        justify-content: space-between;
+    }
+
+    .top-sec-heading_sm-text__div {
+        max-width: 35%;
+        font-size: 49px; 
+        color: #ebe5e6; 
+        line-height: 52px;
+        font-family: 'Lexend', sans-serif;
+    }
+
+    .top-sec-img__div {
+        max-width: 50%; 
+        border-right: 20px solid #ebe5e6; 
+        border-top: 10px solid #ebe5e6; 
+        border-radius: 100% 50%; 
+        height: 300px; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        overflow: hidden;
+    }
+
+    .top-sec-img__resize {
+        max-width: 55%; 
+        height: auto;
+    }
+
+    .top-sec-date__div {
+        max-width: 100%; 
+        display: flex; 
+        justify-content: end; 
+        padding-top: 20px; 
+        color: #ebe5e6; 
+        font-size: 16px;
+        font-weight: 400; 
+        border-bottom: 2px dotted #fdecf0;
+        margin-top: 70px; 
+        padding: 4px 10px; 
+    }
+
+    .projects-details-main__div {
+        max-width: 100%; 
+        background-color:rgba(235, 229, 230, 0.4); 
+        background: rgba(33, 20, 80, 0.02); 
+        padding: 80px 50px 60px 50px;
+        mix-blend-mode: multiply;
+        border: 1px dashed #c7c6c6;
+    }
+
+    .project-details-main__title {
+        font-size: 26px; 
+        color:#29075C;
+        font-weight: 600;
+    }
+
+    .project-details__smalltexts {
+        color:rgba(16, 3, 61, 0.85);
+        margin-left: 30px;
+        color:#29075C;
+        font-size: 14.5px;
+    }
+
+    .skill-enhancement__main__div {
+        font-size: 18.5px; 
+        display: inline-block; 
+        margin-left: 40px; 
+        margin-top: 30px; 
+        font-weight: 400;
+        color: color:#29075C;
+    }
+
+    hr {
+        height: 10px; 
+        max-width: 100%; 
+        margin: auto; 
+        border: 2px dotted #EE4A60; 
+        border-style: none none dotted; 
+        background-color: transparent; 
+    }
+
+    .check-icon {
+        color:#EE4A60; 
+        font-weight:900;
+    }
+
+    .check-texts {
+        font-size: 15px; 
+        margin-left: 10px; 
+    }
+
+    .goals {
+        margin-left: 30px; 
+        font-size: 18.5px; 
+        font-weight: 800; 
+        margin-bottom:20px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    .projects-img__resize {
+        max-width: 60%; 
+        height: auto; 
+        border-radius: 10px; 
+        border: 1px dashed #EE4A60; 
+    }
+
+    .accessibility {
+        text-decoration: underline; 
+        text-decoration-color:#EE4A60; 
+        text-decoration-thickness: 4px; 
+        font-size: 18.5px; 
+        font-weight: 600;
+    }
+
+    .project-share-button {
+        color:#EE4A60; 
+        font-size: 15.5px; 
+        font-weight: 600; 
+        text-decoration: none; 
+        padding: 5px 30px; 
+        border-radius: 5px; 
+        background-color:rgba(231, 75, 96, 0.2)
+    }
+
+
+    @media only screen and (max-width: 600px) { 
+        .top-section-main__div {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    
+        .top-section-title-img__div {
+            width: 100%; 
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+    
+        .top-sec-heading_sm-text__div {
+            width: 100%;
+            flex-direction: column;
+        }
+    
+        .top-sec-img__div {
+            width: 100%;
+            justify-content: center;
+        }
+    
+        .projects-details-main__div {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    
+        .skill-enhancement__main__div {
+            margin-left: 10px;
+            padding-left: 18px;
+        }
+    
+        .project-details__smalltexts {
+            margin-left: 10px; 
+            padding-left: 15px;
+        }
+    }
+
+    @media only screen and (min-width: 451px) and (max-width: 600px){
+        .top-sec-img__div {
+            width: 60%;
+            justify-content: center;
+            align-self: center;
+        }
+
+        .top-sec-img__resize {
+            width: 75%; 
+        }
+    }
+
+
+    @media only screen and (min-width: 601px) and (max-width: 1000px){
+        .top-sec-heading_sm-text__div {
+            width: 80%;
+        }
+
+        .top-sec-img__resize {
+            width: 80%; 
+        }
+
+        .projects-details-main__div {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+
+    @media only screen and (max-width: 349px) {
+        .container-fluid-parent-row {
+            word-break: break-all;
+        }
+
+        .top-sec-heading_sm-text__div {
+            font-size: 33px;
+            line-height: 43px;
+        }
+    }
+
+    .top-sec-img__overlay {
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:100%;
+        z-index: -31; 
+        justify-content: center; 
+        align-items: center;
+        box-sizing: content-box; 
+        background-position: center;
+        opacity: 0.9; 
+        z-index: -200; 
+        margin-top: 20px;
+    }
+
+    .top-sec-img__overlay-2 {
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -35; 
+        justify-content: center; 
+        align-items: center;
+        box-sizing: content-box;
+        background: url('https://i.imgur.com/5JEE4sJ.png') no-repeat center; 
+        background-position: center;
+        opacity: 0.78;
+        margin-left: 100px;
+    }
+
+    img {
+        user-select: none; 
+    }
+
+    @media screen and (max-width: 600px) {
+        .top-sec-img__overlay {
+            margin-top: 100px;
+        }
+
+        .top-sec-img__div {
+            height: 100px;
+        }
+    }
+
+    @media screen and (max-width: 1199px) {
+        .top-section-main__div {
+            border: none;
+        }
+
+        .projects-details-main__div {
+            border-left: none; 
+            border-right: none; 
+        }
+    }
+
+    .example-parent__div {
+        font-size: 22px; 
+        font-family: 'Lexend', sans-serif;
+        display: flex;
+        max-width: 100%;
+        justify-content: center; /* you can see here that I used it as center for other example */
+        align-items: center;
+        padding: 50px 25px;
+        justify-content: space-between;
+    }
+
+    .hello1 {
+        padding: 50px;
+        background-color: rgba(231, 75, 96, 1);
+        border: 1px dashed #c7c6c6;
+        background: linear-gradient(to bottom right, rgb(29, 12, 56) 30%, rgba(27, 15, 73, 0.25)), #EE4A60 80%;
+        background-blend-mode: normal; 
+        color: white;
+    }
+
+/* add media queries for smaller device */
+    @media only screen and (max-width: 767px) {
+        .example-parent__div {
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+    
+</style>
